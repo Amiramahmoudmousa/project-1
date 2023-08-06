@@ -1,0 +1,173 @@
+body{
+    background-color: #99999968;
+}
+/*.navbar{
+    background-color: #111010;
+    overflow: hidden;
+    padding: 20px;
+   
+}
+.navbar a {
+    padding: 3px;
+    color: #fdf9f9;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.navbar a:hover {
+background-color: #971d66;
+color: black;
+}*/
+.navbar{
+    background-color: #101010;
+    width: 100%;
+    height: 80px;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: rgb(205, 34, 108);
+
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+
+}
+nav ul li a{
+   color:white;
+   text-decoration: none;
+   font-weight: bold;
+   text-transform: capitalize;
+   font-size: 20px;
+}
+nav ul li a:hover{
+    color:rgb(205, 34, 108);
+    transition: .4s;
+
+}
+.btn{
+    background-color: rgb(205, 34, 108);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+  }
+  
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  footer{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+
+}
+.social{
+    display: flex;
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:  rgb(205, 34, 108);
+    border-radius: 50px;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.social a:hover{
+ transform: scale(1.3); 
+ transition: .3s;
+}
+.end{
+    position: absolute;
+    color:  rgb(219, 67, 132);
+    bottom: 35px;
+    font-size: 14px;
+}
