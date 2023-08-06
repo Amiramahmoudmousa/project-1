@@ -10,6 +10,7 @@
     background-size: cover;
     background-position: center;
 }
+
 nav{
     display: flex;
     align-items: center;
@@ -17,22 +18,34 @@ nav{
     padding-top: 45px;
     padding-left: 8%;
     padding-right: 8%;
+    content: "";
+    clear: both;
 }
+/*nav ul{
+    width: 50%;
+}
+nav a{
+    width: 25%; 
+    text-align: center;
+}*/
+
 .logo{
     color: white;
     font-size: 35px;
     letter-spacing: 1px;
     cursor: pointer;
+/*width: 25%; */
 }
 span{
     color: rgb(205, 34, 108);
 
 }
+
 nav ul li{
     list-style-type: none;
     display: inline-block;
     padding: 10px 25px;
-
+   
 }
 nav ul li a{
    color:white;
@@ -289,3 +302,14 @@ footer p:nth-child(2){
     font-size: 14px;
 }
 /*border: 2px solid rgb(197, 52, 173) ;*/
+@media screen and (max-width: 600px) {
+    .logo{
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+   nav ul{
+      width: 100%;
+    }
+}
